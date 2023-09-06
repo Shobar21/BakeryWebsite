@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #400328;
+}
+.logo img {
+  height: 9rem;
+  width: 9rem;
+}
+.logo h1 {
+  text-align: center;
+  font-family: 'Happy Monkey';
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+header {
+  background-color: white;
+  color: black;
+  height: 70px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul li {
+  list-style: none;
+  font-size: 25px;
+  padding: 15px;
+  margin: 8px;
+  font-weight: bold;
+  color: #360555;
+}
+.maincontainer {
+  background-color: #400328;
+  height: 500px;
+}
+.inner_container {
+  background-color: white;
+  margin-top: 150px;
+  height: 510px;
+  width: 900px;
+}
+.inner_container img {
+  padding-top: 30px;
+  height: 490px;
+  width: 860px;
+  margin-left: 20px;
+}
+.container-fluid {
+  background-color: #400328;
+  height: 230px;
+  width: 860px;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 img {
+  height: 8rem;
+  width: 8rem;
+  margin-top: 50px;
+}
+
+.text h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 60px;
+  margin-top: 71px;
+  padding-left: 70px;
+}
+
+.text p {
+  font-size: 15px;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.containerCard {
+  background-color: white;
+  margin: 25px;
+  position: absolute;
+  left: 2%;
+}
+.row {
+  display: flex;
+  height: 450px;
+}
+.col-md-4 {
+  height: 540px;
+  width: 25rem;
+  margin: 7px;
+}
+.text h6 {
+  text-align: center;
+  background-color: #400328;
+  color: white;
+  font-size: 23px;
+  height: 80px;
+}
+
+.col-md-4 img {
+  height: 300px;
+  width: 450px;
+}
+.footer {
+  display: flex;
+  position: absolute;
+  top: 295%;
+  background-color: #400328; /* Background color of the footer */
+  color: #fff; /* Text color */
+  padding: 30px 0; /* Padding at the top and bottom of the footer */
+  width: 100%;
+  height: 450px;
+}
+
+/* Style for the social icons section */
+.social-icons {
+  /* Center-align the social icons and text */
+  padding-left: 20px;
+  margin: 20px;
+  padding: 30px;
+  height: 300px;
+}
+.text {
+}
+
+.text h1 {
+  font-size: 30px; /* Font size for the "About The Company" heading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+.text p {
+  font-size: 22px; /* Font size for the company description */
+  margin: 20px;
+}
+
+/* Style for the social media links */
+.links a {
+  /* margin: 10px 20px; */
+  margin: 20px;
+  /* Space between social media icons */
+}
+.text p {
+  padding: 40px;
+  height: 30px;
+}
+
+.links img {
+  width: 32px; /* Adjust the width of the social media icons */
+  height: 32px; /* Adjust the height of the social media icons */
+}
+
+.container {
+  /* Adjust the maximum width of the container as needed */
+  margin: 0 auto; /* Center the container on the page */
+  padding: 20px;
+}
+
+.contact-info {
+  padding: 20px;
+  padding-left: 210px;
+}
+
+.contact-info img {
+  width: 24px; /* Adjust the width of the contact icons */
+  height: 24px; /* Adjust the height of the contact icons */
+  margin-bottom: 10px; /* Space below the contact icons */
+}
+
+.contact-info p {
+  font-size: 14px; /* Font size for the contact information */
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+/* Additional styling for the link */
+.contact-info a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+.col-md-12 p {
+}
